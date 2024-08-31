@@ -1,6 +1,6 @@
 ﻿using NLog;
 
-namespace NTRPRS.NLog.Slack
+namespace VILLAN3LL3.NLog.Slack
 {
     public static class NLogExtensions
     {

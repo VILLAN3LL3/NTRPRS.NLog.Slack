@@ -3,7 +3,7 @@ using FluentAssertions;
 using NLog;
 using Xunit;
 
-namespace NTRPRS.NLog.Slack.Tests
+namespace VILLAN3LL3.NLog.Slack.Tests
 {
     public class SlackTargetTests
     {

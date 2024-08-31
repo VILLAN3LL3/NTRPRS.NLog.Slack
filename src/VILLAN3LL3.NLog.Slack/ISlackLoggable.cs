@@ -1,7 +1,7 @@
 ﻿using NLog;
-using NTRPRS.NLog.Slack.Models;
+using VILLAN3LL3.NLog.Slack.Models;
 
-namespace NTRPRS.NLog.Slack
+namespace VILLAN3LL3.NLog.Slack
 {
     /// <summary>
     /// Implement this interface to have custom Attachment for your object

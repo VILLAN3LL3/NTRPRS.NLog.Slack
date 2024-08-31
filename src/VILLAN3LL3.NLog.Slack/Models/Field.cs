@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace NTRPRS.NLog.Slack.Models
+namespace VILLAN3LL3.NLog.Slack.Models
 {
     /// <summary>
     /// https://api.slack.com/docs/attachments

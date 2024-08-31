@@ -1,28 +1,27 @@
-![Logo](https://raw.githubusercontent.com/ntrprs/NTRPRS.NLog.Slack/master/nuget.png)
-NTRPRS.NLog.Slack  
-============
-[![Build status](https://ci.appveyor.com/api/projects/status/bmdsm0gqsd5luk79?svg=true)](https://ci.appveyor.com/project/leobuskin/ntrprs-nlog-slack) [![NuGet package](https://img.shields.io/badge/nuget-v5.0-blue.svg)](https://www.nuget.org/packages/NTRPRS.NLog.Slack)  
+![Logo](https://raw.githubusercontent.com/VILLAN3LL3/VILLAN3LL3.NLog.Slack/master/nuget.png)
+VILLAN3LL3.NLog.Slack  
+============  
 An NLog target for Slack - your logs in one place and instantly searchable, everywhere.  
-Based on [Paul Price](https://github.com/eth0izzle/NLog.Slack) & [Cyril Gandon](https://github.com/cyrilgandon/NLogToSlack) projects  
+Forked from [NTRPRS.NLog.Slack](https://github.com/nmbro/NTRPRS.NLog.Slack)
 
 Use default Features
-![NTRPRS.NLog.Slack](res/example.png)
+![VILLAN3LL3.NLog.Slack](res/example.png)
 
 Or create your own attachment
 
-![NTRPRS.NLog.Slack](res/exampleWithAuthor.png)
-![NTRPRS.NLog.Slack](res/exampleWithImage.png)
+![VILLAN3LL3.NLog.Slack](res/exampleWithAuthor.png)
+![VILLAN3LL3.NLog.Slack](res/exampleWithImage.png)
 
 Installation
 ============
-Via [NuGet](https://www.nuget.org/packages/NTRPRS.NLog.Slack/): ```Install-Package NTRPRS.NLog.Slack```
+Via [NuGet](https://www.nuget.org/packages/VILLAN3LL3.NLog.Slack/): ```Install-Package VILLAN3LL3.NLog.Slack```
 
 ... or just build it yourself!
 
 Usage
 =====
 1. Create a [new Incoming Webhook integration](https://slack.com/apps/A0F7XDUAZ-incoming-webhooks).
-2. Configure NLog to use `NTRPRS.NLog.Slack`:
+2. Configure NLog to use `VILLAN3LL3.NLog.Slack`:
 
 ### NLog.config
 
@@ -32,7 +31,7 @@ Usage
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <extensions>
-    <add assembly="NTRPRS.NLog.Slack" />
+    <add assembly="VILLAN3LL3.NLog.Slack" />
   </extensions>
 
   <targets async="true">
@@ -43,7 +42,7 @@ Usage
             channel="#log"
             excludeLevel="false"
             embed="true"
-            username="NTRPRS.NLog.Slack"
+            username="VILLAN3LL3.NLog.Slack"
             icon=":ghost:" />
   </targets>
 

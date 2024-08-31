@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("NTRPRS.NLog.Slack")]
+[assembly: AssemblyProduct("VILLAN3LL3.NLog.Slack.Tests")]
 [assembly: AssemblyTrademark("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
@@ -15,4 +15,4 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("66082265-ce23-469c-832e-91f390ec5ff3")]
+[assembly: Guid("e01005bf-17fc-4dcf-a6eb-4c7d64ab7f37")]

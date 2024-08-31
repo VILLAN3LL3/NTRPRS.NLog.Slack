@@ -1,7 +1,7 @@
 ﻿using System;
 using NLog;
 
-namespace NTRPRS.NLog.Slack.Demo
+namespace VILLAN3LL3.NLog.Slack.Demo
 {
     public class Program
     {

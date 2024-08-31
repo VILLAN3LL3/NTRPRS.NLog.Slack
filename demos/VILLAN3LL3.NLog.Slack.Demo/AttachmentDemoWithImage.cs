@@ -1,7 +1,7 @@
 ﻿using NLog;
-using NTRPRS.NLog.Slack.Models;
+using VILLAN3LL3.NLog.Slack.Models;
 
-namespace NTRPRS.NLog.Slack.Demo
+namespace VILLAN3LL3.NLog.Slack.Demo
 {
     /// <summary>
     /// Demonstration of the implementation of ISlackLoggable
@@ -17,7 +17,7 @@ namespace NTRPRS.NLog.Slack.Demo
                 Title = "Network traffic (kb/s)",
                 TitleLink = "https://www.nuget.org/packages/LibGit2Sharp-SSH",
                 Text = "How does this look? @slack-ops - Sent by Julie Dodd",
-                ImageUrl = "https://raw.githubusercontent.com/ntrprs/NTRPRS.NLog.Slack/master/res/sample.png",
+                ImageUrl = "https://raw.githubusercontent.com/VILLAN3LL3/VILLAN3LL3.NLog.Slack/master/res/sample.png",
                 Color = "#764FA5"
             };
         }

@@ -4,9 +4,9 @@ using NLog.Common;
 using NLog.Config;
 using NLog.Layouts;
 using NLog.Targets;
-using NTRPRS.NLog.Slack.Models;
+using VILLAN3LL3.NLog.Slack.Models;
 
-namespace NTRPRS.NLog.Slack
+namespace VILLAN3LL3.NLog.Slack
 {
     [Target("Slack")]
     public class SlackTarget : TargetWithLayout

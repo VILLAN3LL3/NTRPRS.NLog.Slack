@@ -1,9 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <VersionPrefix>5.0.4</VersionPrefix>
     <TargetFrameworks>net8.0</TargetFrameworks>
-    <AssemblyName>NTRPRS.NLog.Slack.Tests</AssemblyName>
-    <PackageId>NTRPRS.NLog.Slack.Tests</PackageId>
+    <AssemblyName>VILLAN3LL3.NLog.Slack.Tests</AssemblyName>
+    <PackageId>VILLAN3LL3.NLog.Slack.Tests</PackageId>
     <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
@@ -11,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/NTRPRS.NLog.Slack/NTRPRS.NLog.Slack.csproj" />
+    <ProjectReference Include="../../src/VILLAN3LL3.NLog.Slack/VILLAN3LL3.NLog.Slack.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTRPRS.NLog.Slack", "src\NTRPRS.NLog.Slack\NTRPRS.NLog.Slack.csproj", "{F6ED08F6-DF1F-40C2-AA99-C8A579DE4F49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VILLAN3LL3.NLog.Slack", "src\VILLAN3LL3.NLog.Slack\VILLAN3LL3.NLog.Slack.csproj", "{F6ED08F6-DF1F-40C2-AA99-C8A579DE4F49}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTRPRS.NLog.Slack.Tests", "tests\NTRPRS.NLog.Slack.Tests\NTRPRS.NLog.Slack.Tests.csproj", "{0C6E0807-3613-4B9F-BD29-02E512B2FDF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VILLAN3LL3.NLog.Slack.Tests", "tests\VILLAN3LL3.NLog.Slack.Tests\VILLAN3LL3.NLog.Slack.Tests.csproj", "{0C6E0807-3613-4B9F-BD29-02E512B2FDF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

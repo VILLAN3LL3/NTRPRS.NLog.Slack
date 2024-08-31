@@ -1,7 +1,7 @@
 ﻿using NLog;
-using NTRPRS.NLog.Slack.Models;
+using VILLAN3LL3.NLog.Slack.Models;
 
-namespace NTRPRS.NLog.Slack.Demo
+namespace VILLAN3LL3.NLog.Slack.Demo
 {
     /// <summary>
     /// Demonstration of the implementation of ISlackLoggable
@@ -23,10 +23,10 @@ namespace NTRPRS.NLog.Slack.Demo
                 Title = "I'm a custom object",
                 Text = CustomText, 
                 AuthorName = "Bill Gates",
-                AuthorIcon = "https://raw.githubusercontent.com/ntrprs/NTRPRS.NLog.Slack/master/res/author_icon.png",
+                AuthorIcon = "https://raw.githubusercontent.com/VILLAN3LL3/VILLAN3LL3.NLog.Slack/master/res/author_icon.png",
                 AuthorLink = "https://fr.wikipedia.org/wiki/Bill_Gates",
-                ImageUrl = "https://raw.githubusercontent.com/ntrprs/NTRPRS.NLog.Slack/master/res/lenna.png",
-                ThumbUrl = "https://raw.githubusercontent.com/ntrprs/NTRPRS.NLog.Slack/master/res/lenna_thumb.gif",
+                ImageUrl = "https://raw.githubusercontent.com/VILLAN3LL3/VILLAN3LL3.NLog.Slack/master/res/lenna.png",
+                ThumbUrl = "https://raw.githubusercontent.com/VILLAN3LL3/VILLAN3LL3.NLog.Slack/master/res/lenna_thumb.gif",
                 Color = "#FF1493" // pink is the new black
             };
         }
