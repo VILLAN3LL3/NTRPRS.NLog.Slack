@@ -10,7 +10,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Description>An NLog target for Slack (forked from https://github.com/nmbro/NTRPRS.NLog.Slack)</Description>
-    <ReporitoryUrl>https://github.com/VILLAN3LL3/VILLAN3LL3.NLog.Slack</ReporitoryUrl>
+    <RepositoryUrl>https://github.com/VILLAN3LL3/VILLAN3LL3.NLog.Slack</RepositoryUrl>
     <PackageProjectUrl>https://github.com/VILLAN3LL3/VILLAN3LL3.NLog.Slack</PackageProjectUrl>
   </PropertyGroup>
 
