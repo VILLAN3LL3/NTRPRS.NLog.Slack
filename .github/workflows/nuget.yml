@@ -1,0 +1,48 @@
+name: Nuget
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "New version for the project"
+        required: true 
+        type: string
+
+jobs:
+  nuget:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - name: Install .NET Core
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Set project versions
+      id: update
+      uses: vers-one/dotnet-project-version-updater@v1.6
+      with:
+        file: |
+          "**/*.csproj", "**/AssemblyInfo.cs"
+        version: ${{ github.event.inputs.version }}
+    - run: |
+        git config user.name "VILLAN3LL3"
+        git config user.email "${{ secrets.USER_EMAIL}}"
+        git add .
+        git commit -m "Update project versions to ${{ steps.update.outputs.newVersion }}"
+        git push
+    - name: Build
+      run: dotnet build --no-restore --configuration Release
+    - name: Create Nuget package
+      run: dotnet pack --configuration Release
+    - name: Push NuGet packages
+      env:
+        NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
+      run: |
+        for file in $(find . -name '*.nupkg'); do
+          dotnet nuget push "$file" --api-key $NUGET_API_KEY --source https://api.nuget.org/v3/index.json
+        done
