@@ -4,6 +4,8 @@ VILLAN3LL3.NLog.Slack
 An NLog target for Slack - your logs in one place and instantly searchable, everywhere.  
 Forked from [NTRPRS.NLog.Slack](https://github.com/nmbro/NTRPRS.NLog.Slack)
 
+[![CI/CD](https://github.com/VILLAN3LL3/VILLAN3LL3.NLog.Slack/actions/workflows/dotnet-desktop.yml/badge.svg?branch=master)](https://github.com/VILLAN3LL3/VILLAN3LL3.NLog.Slack/actions/workflows/dotnet-desktop.yml)
+
 Use default Features
 ![VILLAN3LL3.NLog.Slack](res/example.png)
 
